@@ -13,6 +13,9 @@
     --secondary2-colour: rgba(0,0,0,0.18);
     --secondary3-colour: rgba(0,0,0,0.12);
     --secondary4-colour: rgba(0,0,0,0.06);
+    --theme-background-image: url('https://images.alphacoders.com/632/632525.png'); /* o la que uses */
+    --theme-transparency: rgba(0, 0, 0, 0.20);      /* transparencia general del fondo */
+    --message-box-transparency: rgba(0, 0, 0, 0.55);/* fondo de mini pestañas / popups */
 }
    
  /*
