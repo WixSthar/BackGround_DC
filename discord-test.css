@@ -1152,3 +1152,18 @@
 #app-mount .animatorLeft_faf9c0 .picker__09f65 {
     background-color: rgba(0,0,0,0.18) !important;
 }
+
+/* --- Hacer transparente la parte izquierda (Eventos / Explorar / Miembros) --- */
+
+#app-mount .sidebar_c48ade,
+#app-mount .sidebar_c48ade .container__551b0,
+#app-mount .sidebar_c48ade .scroller__23746,
+#app-mount .sidebarList_c48ade,
+#app-mount .sidebarList_c48ade .privateChannels__35e86 {
+    background-color: transparent !important;
+}
+
+/* Por si el contenedor base mete color */
+#app-mount .base_c48ade {
+    background-color: transparent !important;
+}
