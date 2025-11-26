@@ -96,3 +96,16 @@
 .chatGradient__36d07 { background: none; }
 .chatTypingGradientAtBottom__36d07, .chatTypingGradientNotAtBottom__36d07 { background: none; }
 }
+/* Evitar que los usuarios se muevan al hacer hover en la lista */
+.member_c8ffbb,
+.member_c8ffbb:hover {
+    margin-left: 0 !important;
+    transform: none !important;
+}
+
+/* Asegurar también en el contenedor interno */
+.member_c8ffbb [class*="layout"],
+.member_c8ffbb [class*="layout"]:hover {
+    margin-left: 0 !important;
+    transform: none !important;
+}
